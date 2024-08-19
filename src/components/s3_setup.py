@@ -2,7 +2,7 @@ import os
 import sys
 from zipfile import ZipFile
 import shutil
-from src.exception import CustomException
+# from src.exception import CustomException
 
 
 # https://www.kaggle.com/datasets/imbikramsaha/caltech-101 [ Get data from kaggle and put it into data folder ]
@@ -40,7 +40,7 @@ class DataStore:
     def sync_data(self):
         try:
             print("\n====================== Starting Data sync ==============================\n")
-            os.system(f"aws s3 sync { self.images } s3://image-search-data/images/ ")
+            os.system(f"aws s3 sync { self.images } s3://data-collection-image/images/ ")
             print("\n====================== Data sync Completed ==========================\n")
 
         except Exception as e:

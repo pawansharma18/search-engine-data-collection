@@ -77,4 +77,4 @@ export DATABASE_NAME=<name>
 - For Mysql : Since we are using `$db.t3.micro` Free tier.
 - For ECR : Storage is $0.10 per GB / month for data stored in private or public repositories.
 - Data Transfer IN  - All data transfer in	`$0.00 per GB`
-- Data Transfer OUT - Next 9.999 TB / month	`$0.132 per GB`
+- Data Transfer OUT - Next 9.999 TB / month	`$0.132 per GB` bb
