@@ -1,6 +1,6 @@
 import os
 import sys
-from database_handler import MongodbClient
+from src.utils.database_handler import MongodbClient
 from src.exception import CustomException
 
 
