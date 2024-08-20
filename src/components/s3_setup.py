@@ -5,8 +5,8 @@ import shutil
 from src.exception import CustomException
 
 
-# hhttps://www.kaggle.com/datasets/imbikramsaha/caltech-101 [ Get data from kaggle and put it into data folder ]
-#dd
+# https://www.kaggle.com/datasets/imbikramsaha/caltech-101 [ Get data from kaggle and put it into data folder ]
+
 class DataStore:
     def __init__(self):
         self.root = os.path.join(os.getcwd(), "data")
